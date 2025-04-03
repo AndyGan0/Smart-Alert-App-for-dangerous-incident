@@ -1,0 +1,138 @@
+<resources>
+    <string name="app_name">Smart Alert App</string>
+
+    <!-- Start up -->
+    <string name="welcome_text">Welcome to\nSmart Alert!</string>
+    <string name="create_new_account">Create a new Account</string>
+    <string name="log_in">Log in</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="register">Register</string>
+
+    <string name="welcome_user">Welcome\n%s!</string>
+
+
+    <string name="first_name_label">First Name:</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name_label">Last Name:</string>
+    <string name="last_name">Last Name</string>
+    <string name="username_label">Username:</string>
+    <string name="username">Username</string>
+    <string name="email_address_label">Email Address:</string>
+    <string name="email">Email</string>
+    <string name="password_label">Password:</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+
+    <string name="create_account_label_redirect">Don\'t have an account? Create a new one</string>
+    <string name="already_have_an_account_redirect">Already have an Account? Sign In</string>
+
+
+    <string name="error">Error</string>
+    <string name="error_sign_in">There was an error during sign in!!</string>
+    <string name="error_first_name_empty">First Name is Empty!</string>
+    <string name="error_last_name_empty">Last Name is Empty!</string>
+    <string name="error_username_empty">Username is Empty!</string>
+    <string name="error_email_empty">Email is empty!</string>
+    <string name="error_password_empty">Password is empty!</string>
+    <string name="error_small_password">Password is too small!</string>
+    <string name="error_password_confirm">Your retyped password does not match the original!</string>
+    <string name="error_username_taken">Invalid Username! Username is already taken!</string>
+    <string name="error_push_notifications">Push Notifications were not enabled. Please grant the permission or sign out and log in again to fix the problem. </string>
+
+    <string name="account_created">Account Created Successfully!</string>
+
+
+    <string name="report_incident">Report Incident</string>
+
+    <!-- Form -->
+
+    <string name="choose_incident_type">Choose Incident Category</string>
+    <string name="incident_type_fire">Fire</string>
+    <string name="incident_type_earthquake">Earthquake</string>
+    <string name="incident_type_flood">Flood</string>
+    <string name="incident_type_tornado">Tornado</string>
+    <string name="incident_type_tsunami">Tsunami</string>
+    <string name="incident_type_avalanche">Avalanche</string>
+
+    <string name="report_form">Report Form</string>
+    <string name="incident_type_label">Incident Type:</string>
+    <string name="danger_degree_label">Danger Degree:</string>
+    <string name="photos_comments_optional">Photos and comments are optional</string>
+    <string name="image_label">Image:</string>
+    <string name="comment_hint">Comment</string>
+    <string name="report_button">Report</string>
+    <string name="error_location_permission">Location Permission not granted!</string>
+    <string name="error_already_reported">You have already reported this incident!</string>
+    <string name="success">Success!</string>
+    <string name="report_submitted">Your Report was submitted successfully!</string>
+
+
+    <!-- Stats -->
+    <string name="stats_button">Statistics</string>
+    <string name="stats_incident_fire">Times notified for fire:</string>
+    <string name="stats_incident_earthquake">Times notified for Earthquake:</string>
+    <string name="stats_incident_flood">Times notified for Flood:</string>
+    <string name="stats_incident_tornado">Times notified for Tornado:</string>
+    <string name="stats_incident_tsunami">Times notified for Tsunami:</string>
+    <string name="stats_incident_avalanache">Times notified for Avalanche:</string>
+    <string name="thisMonthOption">This Month</string>
+    <string name="thisYearOption">This Year</string>
+    <string name="AllOption">All</string>
+
+
+    <!-- Employee Recycle viewer -->
+    <string name="recycler_view_location_longitude_latitude_together">Location:\n%.6f x %.6f</string>
+    <string name="recycler_view_radius">Radius: \n%.6f</string>
+    <string name="recycler_view_reports_count_1">Reported By %d User</string>
+    <string name="recycler_view_reports_count_more">Reported By: %d Users</string>
+    <string name="recycler_view_danger_degree">Danger Degree: %.1f</string>
+
+
+    <string name="incident_condition_all">ALL</string>
+    <string name="incident_condition_accepted">ACCEPTED</string>
+    <string name="incident_condition_rejected">REJECTED</string>
+    <string name="incident_condition_pending">PENDING</string>
+
+    <string name="recycler_view_latitude_label">Latitude: %.1f</string>
+    <string name="recycler_view_longitude_label">Longitude: %.1f</string>
+    <string name="recycler_view_danger_score_label">Danger Score: %d</string>
+    <string name="recycler_view_comment">Comment:\n%s\n\n</string>
+
+
+    <!-- Employee show incidents -->
+    <string name="show_incidents">Show Incidents</string>
+    <string name="create_admin_account">Create New Admin Account</string>
+
+    <string name="incidents">Incidents</string>
+    <string name="filter">Filter:</string>
+
+
+    <string name="incident_details">Incident Details</string>
+    <string name="incident_condition_label">Condition:</string>
+    <string name="incident_center_latitude">Center Latitude:</string>
+    <string name="incident_center_longitude">Center Longitude:</string>
+    <string name="incident_radius">Radius:</string>
+    <string name="incident_number_of_reports">Number Of Reports:</string>
+    <string name="incident_average_danger_score">Average Danger Score:</string>
+
+    <string name="view_reports_button">View Reports</string>
+    <string name="accept_button">Accept and Notify Users</string>
+    <string name="reject_button">Reject Incident</string>
+    <string name="pending_button">Move To Pending</string>
+    <string name="enter_instructions">Provide Safety Instructions</string>
+
+    <string name="report_list">Reports List</string>
+
+
+    <!-- Employee create admin account -->
+    <string name="create_new_admin_account">Create a new Admin\nAccount</string>
+    <string name="create_new_employee_account_button">Create a new Employee Account</string>
+
+
+    <!-- Notification -->
+    <string name="notification_title">Warning! %s! </string>
+    <string name="message_from_employee">Safety Instructions: \n\n </string>
+
+
+</resources>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Smart Alert App</string>
+
+    <!-- Start up -->
+    <string name="welcome_text">Καλωσήρθες στο\nSmart Alert!</string>
+    <string name="create_new_account">Δημιούργησε νέο λογαριασμό</string>
+    <string name="log_in">Σύνδεση</string>
+    <string name="sign_in">Σύνδεση</string>
+    <string name="sign_out">Αποσύνδεση</string>
+    <string name="register">Εγγραφή</string>
+
+    <string name="welcome_user">Καλωσήρθες\n%s!</string>
+
+
+    <string name="first_name_label">Όνομα:</string>
+    <string name="first_name">Όνομα</string>
+    <string name="last_name_label">Επώνυμο:</string>
+    <string name="last_name">Επώνυμο</string>
+    <string name="username_label">Username:</string>
+    <string name="username">Username</string>
+    <string name="email_address_label">Διεύθυνση Email:</string>
+    <string name="email">Email</string>
+    <string name="password_label">Κωδικός:</string>
+    <string name="password">Κωδικός</string>
+    <string name="confirm_password">Επιβεβαίωση κωδικού</string>
+
+    <string name="create_account_label_redirect">Δεν έχεις λογαριασμό? Φτιάξε λογαριασμό</string>
+    <string name="already_have_an_account_redirect">Έχεις ήδη λογαριασμό? Σύνδεση</string>
+
+
+    <string name="error">Σφάλμα</string>
+    <string name="error_sign_in">Υπήρχε ένα σφάλμα κατά την σύνδεση!</string>
+    <string name="error_first_name_empty">Το όνομα είναι άδειο!</string>
+    <string name="error_last_name_empty">Το επώνυμο είναι άδειο!</string>
+    <string name="error_username_empty">Το Username είναι άδειο!</string>
+    <string name="error_email_empty">Το Email είναι άδειο!</string>
+    <string name="error_password_empty">Ο κωδικός είναι άδειος!</string>
+    <string name="error_small_password">Ο κωδικός είναι πολύ μικρός!</string>
+    <string name="error_password_confirm">Οι κωδικοί πρόσβασης δεν ταιριάζουν!</string>
+    <string name="error_username_taken">Μη έγκυρο όνομα χρήστη! Το όνομα χρήστη έχει ήδη χρησιμοποιηθεί!</string>
+    <string name="error_push_notifications">Τα Push Notifications δεν ενεργοποιήθηκσν. Δώστε την άδεια ή συνδεθείτε ξανα για να φτιάξετε το πρόβλημα. </string>
+
+    <string name="account_created">Ο λογαριασμός δημιουργήθηκε με επιτυχία!</string>
+
+
+    <string name="report_incident">Αναφορά Περιστατικού</string>
+
+    <!-- Form -->
+
+    <string name="choose_incident_type">Επέλεξε κατηγορία περιστατικού</string>
+    <string name="incident_type_fire">Φωτιά</string>
+    <string name="incident_type_earthquake">Σεισμός</string>
+    <string name="incident_type_flood">Πλημμύρα</string>
+    <string name="incident_type_tornado">Ανεμοστρόβιλος</string>
+    <string name="incident_type_tsunami">Τσουνάμι</string>
+    <string name="incident_type_avalanche">Χιονοστιβάδα</string>
+
+    <string name="report_form">Φόρμα αναφοράς</string>
+    <string name="incident_type_label">Είδος περιστατικού:</string>
+    <string name="danger_degree_label">Βαθμός κινδύνου:</string>
+    <string name="photos_comments_optional">Οι φωτογραφίες και τα σχόλια είναι προαιρετικά</string>
+    <string name="image_label">Εικόνα:</string>
+    <string name="comment_hint">Σχόλιο</string>
+    <string name="report_button">Αναφορά</string>
+    <string name="error_location_permission">Η άδεια τοποθεσίας δεν έχει δοθεί!</string>
+    <string name="error_already_reported">Έχετε ήδη αναφέρει αυτό το περιστατικό!</string>
+    <string name="success">Επιτυχία!</string>
+    <string name="report_submitted">Η αναφορά σας παραδόθηκε με επιτυχία!</string>
+
+
+    <!-- Stats -->
+    <string name="stats_button">Στατιστικά</string>
+    <string name="stats_incident_fire">Αριθμός φορών ενημέρωσης για περιστατικά φωτιάς:</string>
+    <string name="stats_incident_earthquake">Αριθμός φορών ενημέρωσης για περιστατικά Σεισμού:</string>
+    <string name="stats_incident_flood">Αριθμός φορών ενημέρωσης για περιστατικά Πλημμύρας:</string>
+    <string name="stats_incident_tornado">Αριθμός φορών ενημέρωσης για περιστατικά Ανεμοστρόβιλου:</string>
+    <string name="stats_incident_tsunami">Αριθμός φορών ενημέρωσης για περιστατικά Τσουνάμι:</string>
+    <string name="stats_incident_avalanache">Αριθμός φορών ενημέρωσης για περιστατικά Χιονοστιβάδας:</string>
+    <string name="thisMonthOption">Αυτόν τον μήνα</string>
+    <string name="thisYearOption">Αυτόν τον χρόνο</string>
+    <string name="AllOption">Όλα</string>
+
+
+
+
+    <!-- Employee Recycle viewer -->
+    <string name="recycler_view_location_longitude_latitude_together">Τοποθεσία:\n%.6f x %.6f</string>
+    <string name="recycler_view_radius">Ακτίνα: \n%.6f</string>
+    <string name="recycler_view_reports_count_1">Αναφέρθηκε από %d Χρήστη</string>
+    <string name="recycler_view_reports_count_more">Αναφέρθηκε από %d Χρήστες</string>
+    <string name="recycler_view_danger_degree">Βαθμός κινδύνου: %.1f</string>
+
+
+    <string name="incident_condition_all">Όλα</string>
+    <string name="incident_condition_accepted">ΕΓΚΡΙΘΗΚΕ</string>
+    <string name="incident_condition_rejected">ΑΠΟΡΡΙΦΘΗΚΕ</string>
+    <string name="incident_condition_pending">ΕΚΚΡΕΜΕΙ</string>
+
+    <string name="recycler_view_latitude_label">Γεωγραφικό πλάτος: %.1f</string>
+    <string name="recycler_view_longitude_label">Γεωγραφικό ύψος: %.1f</string>
+    <string name="recycler_view_danger_score_label">Score κινδύνου: %d</string>
+    <string name="recycler_view_comment">Σχόλιο:\n%s\n\n</string>
+
+
+    <!-- Employee show incidents -->
+    <string name="show_incidents">Δείξε περιστατικά</string>
+    <string name="create_admin_account">Δημιούργησε νέο λογαριασμό Admin</string>
+
+    <string name="incidents">Περιστατικά</string>
+    <string name="filter">Φίλτρο:</string>
+
+
+    <string name="incident_details">Λεπτομέριες Περιστατικού</string>
+    <string name="incident_condition_label">Κατάσταση:</string>
+    <string name="incident_center_latitude">Γεωγραφικό πλάτος:</string>
+    <string name="incident_center_longitude">Γεωγραφικό ύψος:</string>
+    <string name="incident_radius">Ακτίνα:</string>
+    <string name="incident_number_of_reports">Αριθμός αναφορών:</string>
+    <string name="incident_average_danger_score">Μέσο Score κινδύνου:</string>
+
+    <string name="view_reports_button">Δες τις αναφορές</string>
+    <string name="accept_button">Αποδοχή και ειδοποίηση χρηστών</string>
+    <string name="reject_button">Απόρριψη περιστατικού</string>
+    <string name="pending_button">Μεταφορά σε κατάσταση εκκρεμότητας</string>
+    <string name="enter_instructions">Δώστε οδηγίες ασφάλειας</string>
+
+    <string name="report_list">Λίστα αναφορών</string>
+
+
+
+    <!-- Employee create admin account -->
+    <string name="create_new_admin_account">Δημιούργησε ένα νέο\nλογαριασμό Admin</string>
+    <string name="create_new_employee_account_button">Δημιούργησε νέο λογαριασμό υπαλλήλου</string>
+
+
+    <!-- Notification -->
+    <string name="notification_title">ΠΡΟΣΟΧΗ! %s! </string>
+    <string name="message_from_employee">Οδηγίες από πολιτική προστασία: \n\n </string>
+
+
+</resources>
